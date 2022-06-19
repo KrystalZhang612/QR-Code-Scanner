@@ -2,7 +2,7 @@
 //  QRCodeScannerApp.swift
 //  QRCodeScanner
 //
-//  Created by erika on 6/18/22.
+//  Created by Krystal Zhang on 6/18/22.
 //
 
 import SwiftUI

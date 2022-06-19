@@ -36,7 +36,6 @@ struct ContentView: View {
         )
     }
     
-    
     var body: some View {
         //now use VStack to vertically place views inside
         //set up spacing
@@ -58,15 +57,3 @@ struct ContentView_Previews: PreviewProvider {
         ContentView()
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-

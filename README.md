@@ -21,10 +21,10 @@ In Xcode IDE, go to info, click to add a Custom iOS Target Properties Key<br/>
 Search for Privacy - `Camera Usage Description` <br/>
 Value String: “We need the camera to scan the QR code” -> <br/>
 This preset will enable users to turn on their camera Privacy for scanning<br/>
-<hr>
+
 Secondarily, click to add `Appearance`  Value String: Light -><br/>
 If the app is used on a physical device, this functionality will automatically maximize the brightness on the user’s devices for better scannability if QR code is detected. <br/>
-<hr>
+
 Next, click File->Add Packages…-> add [CodeScannerDependency](https://github.com/twostraws/CodeScanner) into Package Dependencies.
 # Debugging&Troubleshooting
 In order to prevent the occurence of 
@@ -40,7 +40,7 @@ we need to use
 self.scannedCode = code.string 
 ```
 instead to make the value types compatible. <br/>
-<hr>
+
 # Commits&Pushes Steps
 Must customize commit message for each commit:<br/>
 Changes done in ContentView.swift file-> Save -> Source Control->Commit->Flat->Selected the committed file->Enter customized commit message down below->Select Push to Remote (origin/origin/main)-> Commit N files. Done Committing. <br/>

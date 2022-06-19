@@ -8,7 +8,7 @@ Jump to:<br/>
 [Setup](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/README.md#setup)<br/>
 [Debugging&Troubleshooting](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/README.md#debuggingtroubleshooting)<br/>
 [Commits&Pushes Steps](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/README.md#commitspushes-steps)<br/>
-[Method Running The Project]()<br/>
+[Method Running The Project](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/README.md#method-running-the-project)<br/>
 [Testing Result]()
 # Contribution
 [Author]()

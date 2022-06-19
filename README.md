@@ -1,7 +1,10 @@
 # iOS QR Code Scanner
 A Simple iOS QR code scanner using Swift UI. <br/>
-Jump to:
+Jump to:<br/>
+[ContentView.swift](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/QRCodeScanner/ContentView.swift)<br/>
 [`screenshot 1.1.5`](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/screenshot1.1.5.png)<br/>
+`NOTE`: be aware of <hr> new horizontal line error to internal hyperlink redirecting. <br/>
+
 # Build
 [Setup]()<br/>
 [Debugging&Troubleshooting]()<br/>
@@ -57,7 +60,6 @@ Testing on url link: [screenshot 1.0.7](https://github.com/KrystalZhang612/QRCod
 Testing on random text:  [screenshot 1.1.0](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/screenshot1.1.0.png)      [screenshot 1.1.1](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/screenshot1.1.1.png)<br/>
 Testing on image: [screenshot 1.1.2](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/screenshot1.1.2.png)    [screenshot 1.1.3](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/screenshot1.1.3.png)        [screenshot 1.1.4](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/screenshot1.1.4.png)<br/>
 # Author
-refer to the modified file [ContentView.swift](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/QRCodeScanner/ContentView.swift)<br/>
 Krystal Zhang 
 https://github.com/KrystalZhang612
 <hr>

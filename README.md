@@ -11,7 +11,7 @@ Jump to:<br/>
 [Method Running The Project](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/README.md#method-running-the-project)<br/>
 [Testing Result](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/README.md#testing-result)
 # Contribution
-[Author]()
+[Author](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/README.md#author)
 # Prerequisite
 Developing tool: Xcode `13.4+` Swift, SwiftUI custom dependencies. 
 # Compatibility

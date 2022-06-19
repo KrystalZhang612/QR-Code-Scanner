@@ -1,8 +1,8 @@
 # iOS QR Code Scanner
 A Simple iOS QR code scanner using Swift UI. <br/>
 <hr>
-Jump to: 
-[ContentView.swift](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/QRCodeScanner/ContentView.swift)  <br/>
+Jump to: <br/>
+[ContentView.swift](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/QRCodeScanner/ContentView.swift) <br/>
 
 
 [`screenshot 1.1.5`](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/screenshot1.1.5.png)<br/>

@@ -11,6 +11,7 @@
 		6E7EBD9A285E98E000C7CB40 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6E7EBD99285E98E000C7CB40 /* ContentView.swift */; };
 		6E7EBD9C285E98E200C7CB40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7EBD9B285E98E200C7CB40 /* Assets.xcassets */; };
 		6E7EBD9F285E98E200C7CB40 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6E7EBD9E285E98E200C7CB40 /* Preview Assets.xcassets */; };
+		6E7EBDA7285E9A2D00C7CB40 /* CodeScanner in Frameworks */ = {isa = PBXBuildFile; productRef = 6E7EBDA6285E9A2D00C7CB40 /* CodeScanner */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6E7EBDA7285E9A2D00C7CB40 /* CodeScanner in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +85,9 @@
 			dependencies = (
 			);
 			name = QRCodeScanner;
+			packageProductDependencies = (
+				6E7EBDA6285E9A2D00C7CB40 /* CodeScanner */,
+			);
 			productName = QRCodeScanner;
 			productReference = 6E7EBD94285E98E000C7CB40 /* QRCodeScanner.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +116,9 @@
 				Base,
 			);
 			mainGroup = 6E7EBD8B285E98E000C7CB40;
+			packageReferences = (
+				6E7EBDA5285E9A2D00C7CB40 /* XCRemoteSwiftPackageReference "CodeScanner" */,
+			);
 			productRefGroup = 6E7EBD95285E98E000C7CB40 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -270,11 +278,13 @@
 				DEVELOPMENT_TEAM = KH4KP7N9B8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to scan the QR code. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -299,11 +309,13 @@
 				DEVELOPMENT_TEAM = KH4KP7N9B8;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "We need the camera to scan the QR code. ";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIUserInterfaceStyle = Light;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -339,6 +351,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6E7EBDA5285E9A2D00C7CB40 /* XCRemoteSwiftPackageReference "CodeScanner" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/twostraws/CodeScanner";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6E7EBDA6285E9A2D00C7CB40 /* CodeScanner */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6E7EBDA5285E9A2D00C7CB40 /* XCRemoteSwiftPackageReference "CodeScanner" */;
+			productName = CodeScanner;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 6E7EBD8C285E98E000C7CB40 /* Project object */;
 }

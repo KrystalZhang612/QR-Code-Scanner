@@ -5,7 +5,7 @@ Jump to:<br/>
 `NOTE`: be aware of the new horizontal line error to internal hyperlink redirecting in Documentations <br/>
 
 # Build
-[Setup]()<br/>
+[Setup](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/README.md#setup)<br/>
 [Debugging&Troubleshooting]()<br/>
 [Commits&Pushes Steps]()<br/>
 [Method Running The Project]()<br/>

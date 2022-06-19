@@ -6,7 +6,7 @@ Jump to:<br/>
 
 # Build
 [Setup](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/README.md#setup)<br/>
-[Debugging&Troubleshooting]()<br/>
+[Debugging&Troubleshooting](https://github.com/KrystalZhang612/QRCodeScanner/blob/main/README.md#debuggingtroubleshooting)<br/>
 [Commits&Pushes Steps]()<br/>
 [Method Running The Project]()<br/>
 [Testing Result]()

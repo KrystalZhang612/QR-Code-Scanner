@@ -3,7 +3,7 @@
 //  QRCodeScanner
 //
 //  Created by Krystal Zhang on 6/18/22.
-//  The very latest commit
+//  The 4th commit
 
 import SwiftUI
 import CodeScanner
